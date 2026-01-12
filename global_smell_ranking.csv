@@ -1,0 +1,120 @@
+RULE_KEY,RULE_NAME,COUNT
+typescript:S6606,Nullish coalescing should be preferred,5952
+typescript:S6759,React props should be read-only,1228
+typescript:S1135,"Track uses of ""TODO"" tags",864
+typescript:S3776,Cognitive Complexity of functions should not be too high,840
+typescript:S2933,"Fields that are only assigned in the constructor should be ""readonly""",831
+typescript:S4325,Redundant casts and non-null assertions should be avoided,819
+typescript:S3358,Ternary operators should not be nested,664
+typescript:S6747,JSX elements should not use unknown properties and attributes,608
+typescript:S2004,Functions should not be nested too deeply,479
+typescript:S2486,Exceptions should not be ignored,345
+typescript:S3863,Imports from the same module should be merged,334
+typescript:S6478,React components should not be nested,282
+typescript:S1854,Unused assignments should be removed,270
+typescript:S6582,Optional chaining should be preferred,256
+typescript:S1874,Deprecated APIs should not be used,246
+typescript:S6479,JSX list components should not use array indexes as key,233
+typescript:S1444,"Public ""static"" fields should be read-only",220
+typescript:S6594,"""RegExp.exec()"" should be preferred over ""String.match()""",197
+typescript:S6353,Regular expression quantifiers and character classes should be used concisely,164
+typescript:S1128,Unnecessary imports should be removed,155
+typescript:S4624,Template literals should not be nested,131
+typescript:S6848,Non-interactive DOM elements should not have an interactive handler,130
+typescript:S6509,Extra boolean casts should be removed,125
+typescript:S6767,Unused React typed props should be removed,106
+typescript:S6571,Type constituents of unions and intersections should not be redundant,105
+typescript:S125,Sections of code should not be commented out,102
+typescript:S6819,Prefer tag over ARIA role,71
+typescript:S4144,Functions should not have identical implementations,68
+typescript:S6660,If statements should not be the only statement in else blocks,66
+typescript:S4782,Optional property declarations should not use both '?' and 'undefined' syntax,52
+typescript:S4323,Type aliases should be used,48
+typescript:S4043,Array-mutating methods should not be used misleadingly,48
+typescript:S3626,Jump statements should not be redundant,45
+typescript:S4138,"""for of"" should be used with Iterables",43
+typescript:S1301,"""if"" statements should be preferred over ""switch"" when simpler",41
+typescript:S6671,Literals should not be used for promise rejection,40
+typescript:S6754,"The return value of ""useState"" should be destructured and named symmetrically",40
+typescript:S6766,JSX special characters should be escaped,40
+typescript:S6551,"Objects and classes converted or coerced to strings should define a ""toString()"" method",37
+typescript:S6772,Spacing between inline elements should be explicit,36
+typescript:S6477,JSX list components should have a key property,36
+typescript:S6749,Redundant React fragments should be removed,35
+typescript:S3735,"""void"" should not be used",32
+typescript:S1788,Function parameters with default values should be last,31
+typescript:S6535,Unnecessary character escapes should be removed,29
+typescript:S2301,Methods should not contain selector parameters,28
+typescript:S4165,Assignments should not be redundant,28
+typescript:S5843,Regular expressions should not be too complicated,27
+typescript:S6770,User-defined JSX components should use Pascal case,27
+typescript:S2310,Loop counters should not be assigned within the loop body,27
+typescript:S6836,"""case"" and ""default"" clauses should not contain lexical declarations",26
+typescript:S6644,Ternary operator should not be used instead of simpler alternatives,25
+typescript:S6481,React Context Provider values should have stable identities,23
+typescript:S6035,Single-character alternations in regular expressions should be replaced with character classes,22
+typescript:S6564,Redundant type aliases should not be used,20
+typescript:S1871,Two branches in a conditional structure should not have exactly the same implementation,20
+typescript:S2187,Test files should contain at least one test case,19
+typescript:S6844,Anchor tags should not be used as buttons,18
+typescript:S2589,Boolean expressions should not be gratuitous,18
+typescript:S1121,Assignments should not be made from within sub-expressions,18
+typescript:S4123,"""await"" should only be used with promises",17
+typescript:S1125,Boolean literals should not be used in comparisons,17
+typescript:S128,"Switch cases should end with an unconditional ""break"" statement",16
+typescript:S6653,Use Object.hasOwn static method instead of hasOwnProperty,15
+typescript:S6557,"Ends of strings should be checked with ""startsWith()"" and ""endsWith()""",15
+typescript:S6847,Non-interactive elements shouldn't have event handlers,14
+typescript:S6397,Character classes in regular expressions should not contain only one character,14
+typescript:S107,Functions should not have too many parameters,13
+typescript:S4623,"""undefined"" should not be passed as the value of optional parameters",13
+typescript:S3516,Function returns should not be invariant,13
+typescript:S5869,Character classes in regular expressions should not contain the same character twice,12
+typescript:S1077,"Image, area, button with image and object elements should have an alternative text",12
+typescript:S4030,Collection contents should be used,12
+typescript:S6822,No redundant ARIA role,12
+typescript:S6853,Label elements should have a text label and an associated control,11
+typescript:S6598,Function types should be preferred,11
+typescript:S6661,"Object spread syntax should be used instead of ""Object.assign""",10
+typescript:S1186,Functions should not be empty,10
+typescript:S1199,Nested code blocks should not be used,9
+typescript:S6565,"Prefer the return type ""this"" in fluent interfaces",9
+typescript:S101,Class names should comply with a naming convention,8
+typescript:S6325,Regular expression literals should be used when possible,7
+typescript:S6637,"Unnecessary calls to "".bind()"" should not be used",7
+typescript:S6019,Reluctant quantifiers in regular expressions should be followed by an expression that can't match the empty string,7
+typescript:S4084,Media elements should have captions,6
+typescript:S6676,"Calls to "".call()"" and "".apply()"" methods should not be redundant",6
+typescript:S7059,Constructors should not contain asynchronous operations,5
+typescript:S3696,Literals should not be thrown,5
+typescript:S6861,Mutable variables should not be exported,5
+typescript:S6850,Heading elements should have accessible content,4
+typescript:S1533,Wrapper objects should not be used for primitive types,4
+typescript:S6748,"React ""children"" should not be passed as prop",4
+typescript:S4621,Union and intersection types should not include duplicated constituents,4
+typescript:S6647,Unnecessary constructors should be removed,4
+typescript:S108,Nested blocks of code should not be left empty,4
+typescript:S3579,Array indexes should be numeric,4
+typescript:S6550,All enum members should be literals,4
+typescript:S6845,Non-interactive DOM elements should not have the `tabIndex` property,3
+typescript:S4634,Shorthand promises should be used,3
+typescript:S6486,JSX list components keys should match up between renders,3
+typescript:S6679,"""Number.isNaN()"" should be used to check for ""NaN"" value",3
+typescript:S6827,Anchors should contain accessible content,2
+typescript:S2737,"""catch"" clauses should do more than rethrow",2
+typescript:S6326,Regular expressions should not contain multiple spaces,2
+typescript:S1090,iFrames must have a title,2
+typescript:S6522,Import variables should not be reassigned,2
+typescript:S4524,"""default"" clauses should be last",2
+typescript:S3504,"Variables should be declared with ""let"" or ""const""",2
+typescript:S5254,HTML elements should have a valid language attribute,2
+typescript:S2430,Constructor names should start with an upper case letter,2
+typescript:S1479,"""switch"" statements should not have too many ""case"" clauses",1
+typescript:S878,Comma operator should not be used,1
+typescript:S1940,Boolean checks should not be inverted,1
+typescript:S6811,DOM elements with ARIA role should only have supported properties,1
+typescript:S1134,"Track uses of ""FIXME"" tags",1
+typescript:S6643,Prototypes of builtin objects should not be modified,1
+typescript:S6569,Unnecessary type constraints should be removed,1
+typescript:S1119,Labels should not be used,1
+typescript:S6825,"Focusable elements should not have ""aria-hidden"" attribute",1

@@ -1,0 +1,23 @@
+// @ts-nocheck
+window.addEventListener('message', ({ data }) => {
+  if (data && data.target === 'slidev') {
+    if (data.type === 'navigate') {
+      if (data.no || data.clicks) {
+        nav.go(+data.no, +data.clicks || 0)
+      }
+      else if (typeof data.operation === 'string') {
+        const fn = nav[data.operation as keyof typeof nav]
+        if (typeof fn === 'function')
+          (fn as any)(...(data.args ?? []))
+      }
+    }
+    else if (data.type === 'css-vars') {
+      const root = document.documentElement
+      for (const [key, value] of Object.entries(data.vars || {}))
+        root.style.setProperty(key, value as any)
+    }
+    else if (data.type === 'color-schema') {
+      isDark.value = data.color === 'dark'
+    }
+  }
+})

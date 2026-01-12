@@ -1,0 +1,27 @@
+// @ts-nocheck
+export function useCheckProblems(appId: number | null) {
+  const { settings } = useSettings();
+  const {
+    data: problemReport,
+    isLoading: isChecking,
+    error,
+    refetch: checkProblems,
+  } = useQuery<ProblemReport, Error>({
+    queryKey: [`problems`, appId],
+    queryFn: async (): Promise<ProblemReport> => {
+      if (!appId) {
+        throw new Error(`App ID is required`);
+      }
+      const ipcClient = IpcClient.getInstance();
+      return ipcClient.checkProblems({ appId });
+    },
+    enabled: !!appId && settings?.enableAutoFixProblems,
+  });
+
+  return {
+    problemReport,
+    isChecking,
+    error,
+    checkProblems,
+  };
+}

@@ -1,0 +1,33 @@
+// @ts-nocheck
+export function registerIpcHandlers() {
+  registerAppHandlers();
+  registerChatHandlers();
+  registerChatStreamHandlers();
+  registerSettingsHandlers();
+  registerShellHandlers();
+  registerDependencyHandlers();
+  registerGithubHandlers();
+  registerVercelHandlers();
+  registerNodeHandlers();
+  registerProblemsHandlers();
+  registerProposalHandlers();
+  registerDebugHandlers();
+  registerSupabaseHandlers();
+  registerNeonHandlers();
+  registerLocalModelHandlers();
+  registerTokenCountHandlers();
+  registerWindowHandlers();
+  registerUploadHandlers();
+  registerVersionHandlers();
+  registerLanguageModelHandlers();
+  registerReleaseNoteHandlers();
+  registerImportHandlers();
+  registerSessionHandlers();
+  registerProHandlers();
+  registerContextPathsHandlers();
+  registerAppUpgradeHandlers();
+  registerCapacitorHandlers();
+  registerAppEnvVarsHandlers();
+  registerTemplateHandlers();
+  registerPortalHandlers();
+}

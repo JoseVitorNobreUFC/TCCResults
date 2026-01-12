@@ -1,0 +1,112 @@
+{
+    "bytebot": {
+        "remote_url": "https://github.com/bytebot-ai/bytebot.git",
+        "commit_hash": "3d37894ce07ef8d8b40adc7fd309ad96c2a71313",
+        "sonar_properties": "sonar.projectKey=bytebot\nsonar.projectName=Bytebot\nsonar.sources=packages\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8\n"
+    },
+    "cc-switch": {
+        "remote_url": "https://github.com/farion1231/cc-switch.git",
+        "commit_hash": "cc0b9352bc839acb8e4ba651abbb55deddf8b7f1",
+        "sonar_properties": "sonar.projectKey=cc-switch\nsonar.projectName=CCSwitch\nsonar.sources=src\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8\n"
+    },
+    "dyad": {
+        "remote_url": "https://github.com/dyad-sh/dyad.git",
+        "commit_hash": "676d07e90576bf848507bbd3769715bb1e297f52",
+        "sonar_properties": "sonar.projectKey=dyad\nsonar.projectName=Dyad\nsonar.sources=src\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_575c27e583affa3a825ed3352e02d7ab650eabc2\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8\nsonar.tests=e2e-tests\n"
+    },
+    "Handy": {
+        "remote_url": "https://github.com/cjpais/Handy.git",
+        "commit_hash": "5085485e67bc7e28640a9499936710693d4c6f9c",
+        "sonar_properties": "sonar.projectKey=handy\nsonar.projectName=Handy\nsonar.sources=src\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8\n"
+    },
+    "hoppscotch": {
+        "remote_url": "https://github.com/hoppscotch/hoppscotch.git",
+        "commit_hash": "c04faaaf27e756f8e507942e6ab771503b3b91d1",
+        "sonar_properties": "sonar.projectKey=hoppscotch\nsonar.projectName=Hoppscotch\nsonar.sources=packages\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=packages/**/tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8\n"
+    },
+    "humanlayer": {
+        "remote_url": "https://github.com/humanlayer/humanlayer.git",
+        "commit_hash": "a294caa498101fa0fe88f061caa153f4dbcfd736",
+        "sonar_properties": "sonar.projectKey=humanlayer\nsonar.projectName=Humanlayer\nsonar.sources=humanlayer-wui\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8\n"
+    },
+    "open-notebook": {
+        "remote_url": "https://github.com/lfnovo/open-notebook.git",
+        "commit_hash": "b42cc06e6574fddb1ebd7d642d189fcb3df425e0",
+        "sonar_properties": "sonar.projectKey=open-notebook\nsonar.projectName=OpenNotebook\nsonar.sources=frontend\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8\n"
+    },
+    "payload": {
+        "remote_url": "https://github.com/payloadcms/payload.git",
+        "commit_hash": "b9b11f03a2b5ab3b66a370986d94b4a24758216c",
+        "sonar_properties": "sonar.projectKey=payload\nsonar.projectName=Payload\nsonar.sources=tools\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8\n"
+    },
+    "Perplexica": {
+        "remote_url": "https://github.com/ItzCrazyKns/Perplexica.git",
+        "commit_hash": "f18e132d1bd5dd3db3bbf60bbbbf606d12450c12",
+        "sonar_properties": "sonar.projectKey=perplexica\nsonar.projectName=Perplexica\nsonar.sources=src\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8"
+    },
+    "renovate": {
+        "remote_url": "https://github.com/renovatebot/renovate.git",
+        "commit_hash": "d01be1d1e699e4fbaeae620bdd3cf8cbc5e0eb7c",
+        "sonar_properties": "sonar.projectKey=renovate\nsonar.projectName=Renovate\nsonar.sources=tools,lib\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8\n"
+    },
+    "sim": {
+        "remote_url": "https://github.com/simstudioai/sim.git",
+        "commit_hash": "9f2ff7e9cd3b3f36045922c405ecd4fdd845f108",
+        "sonar_properties": "sonar.projectKey=sim\nsonar.projectName=Sim\nsonar.sources=apps\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8\n"
+    },
+    "supermemory": {
+        "remote_url": "https://github.com/supermemoryai/supermemory.git",
+        "commit_hash": "895f37ac899597dc66c40fb94f9e5bb43d60a42a",
+        "sonar_properties": "sonar.projectKey=supermemory\nsonar.projectName=Supermemory\nsonar.sources=apps,packages\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8\n"
+    },
+    "tech-interview-handbook": {
+        "remote_url": "https://github.com/yangshun/tech-interview-handbook.git",
+        "commit_hash": "9430396f989730fab83f3ccba16b4955577f107d",
+        "sonar_properties": "sonar.projectKey=tech-interview-handbook\nsonar.projectName=TechInterviewHandbook\nsonar.sources=apps,packages\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8\n"
+    },
+    "umami": {
+        "remote_url": "https://github.com/umami-software/umami.git",
+        "commit_hash": "aaa1f9dc58feafe6af54248c5f0611112786fddf",
+        "sonar_properties": "sonar.projectKey=umami\nsonar.projectName=Umami\nsonar.sources=src\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8\n"
+    },
+    "waha": {
+        "remote_url": "https://github.com/devlikeapro/waha.git",
+        "commit_hash": "d5f399f7d5d8285962fc7f757c4fb2c497732d5d",
+        "sonar_properties": "sonar.projectKey=waha\nsonar.projectName=Waha\nsonar.sources=src\nsonar.language=ts\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9"
+    },
+    "x402": {
+        "remote_url": "https://github.com/coinbase/x402.git",
+        "commit_hash": "add7375bb8adcd0f3bdd874796253cc8eb53a630",
+        "sonar_properties": "sonar.projectKey=x402\nsonar.projectName=X402\nsonar.sources=typescript\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8\n"
+    },
+    "yaak": {
+        "remote_url": "https://github.com/mountain-loop/yaak.git",
+        "commit_hash": "acf9458616e57278345b3f256323ba37d55db8f9",
+        "sonar_properties": "sonar.projectKey=yaak\nsonar.projectName=Yaak\nsonar.sources=src-web\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8\n"
+    },
+        "clash-verge-rev": {
+        "remote_url": "https://github.com/clash-verge-rev/clash-verge-rev.git",
+        "commit_hash": "357069505a9788ea0209a2122e457bb7d7e3b278",
+        "sonar_properties": "sonar.projectKey=clash-verge-rev\nsonar.projectName=ClashVergeRev\nsonar.sources=src\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8"
+    },
+    "FossFLOW": {
+        "remote_url": "https://github.com/stan-smith/FossFLOW.git",
+        "commit_hash": "3d7158c66d801b15821da1f03cb0e5b06378a160",
+        "sonar_properties": "sonar.projectKey=fossFLOW\nsonar.projectName=FossFLOW\nsonar.sources=packages\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8"
+    },
+    "headlamp": {
+        "remote_url": "https://github.com/kubernetes-sigs/headlamp.git",
+        "commit_hash": "768b282df946e4e83f2a18030961e83a5e678ad4",
+        "sonar_properties": "sonar.projectKey=headlamp\nsonar.projectName=Headlamp\nsonar.sources=frontend,app\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8"
+    },
+    "opentui": {
+        "remote_url": "https://github.com/sst/opentui.git",
+        "commit_hash": "df232a105ec1976392a1a7692740e6da6e2500b7",
+        "sonar_properties": "sonar.projectKey=opentui\nsonar.projectName=Opentui\nsonar.sources=packages\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8"
+    },
+    "slidev": {
+        "remote_url": "https://github.com/slidevjs/slidev.git",
+        "commit_hash": "9992aff670a369991d187ee87c9696e4def12cb0",
+        "sonar_properties": "sonar.projectKey=slidev\nsonar.projectName=Slidev\nsonar.sources=./\nsonar.host.url=http://localhost:9000\nsonar.typescript.tsconfigPath=tsconfig.json\nsonar.token=sqa_8fd83b26701c4f95500581174bdc295e18eb2bc9\nsonar.inclusions=**/*.ts,**/*.tsx\nsonar.exclusions=**/node_modules/**,**/dist/**,**/*.spec.ts\nsonar.sourceEncoding=UTF-8"
+    }
+}
